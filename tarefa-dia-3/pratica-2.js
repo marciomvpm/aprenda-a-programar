@@ -5,7 +5,7 @@ let n=10
 let multiplicador=9
 
 
-while (i<=10){
+while (i<=n){
 let resultado = multiplicador * i
 let textoDeExibicao = `${multiplicador} X ${i} = ${resultado}`
 console.log(textoDeExibicao)
